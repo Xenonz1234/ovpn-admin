@@ -14,7 +14,7 @@ services:
     cap_add:
       - NET_ADMIN
     ports:
-      - 7777:1194 # for openvpn
+      - 7777:1199 # for openvpn
       - 8080:8080 # for ovpn-admin because of network_mode
     volumes:
       - ./easyrsa_master:/etc/openvpn/easyrsa
